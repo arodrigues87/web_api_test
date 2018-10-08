@@ -1,0 +1,14 @@
+C:\Users\alexsander.rodrigues\core_api\heroes_api\bin\Debug\netcoreapp2.1\heroes_api.deps.json
+C:\Users\alexsander.rodrigues\core_api\heroes_api\bin\Debug\netcoreapp2.1\heroes_api.runtimeconfig.json
+C:\Users\alexsander.rodrigues\core_api\heroes_api\bin\Debug\netcoreapp2.1\heroes_api.runtimeconfig.dev.json
+C:\Users\alexsander.rodrigues\core_api\heroes_api\bin\Debug\netcoreapp2.1\heroes_api.dll
+C:\Users\alexsander.rodrigues\core_api\heroes_api\bin\Debug\netcoreapp2.1\heroes_api.pdb
+C:\Users\alexsander.rodrigues\core_api\heroes_api\obj\Debug\netcoreapp2.1\heroes_api.csprojAssemblyReference.cache
+C:\Users\alexsander.rodrigues\core_api\heroes_api\obj\Debug\netcoreapp2.1\heroes_api.csproj.CoreCompileInputs.cache
+C:\Users\alexsander.rodrigues\core_api\heroes_api\obj\Debug\netcoreapp2.1\heroes_api.RazorAssemblyInfo.cache
+C:\Users\alexsander.rodrigues\core_api\heroes_api\obj\Debug\netcoreapp2.1\heroes_api.RazorAssemblyInfo.cs
+C:\Users\alexsander.rodrigues\core_api\heroes_api\obj\Debug\netcoreapp2.1\heroes_api.AssemblyInfoInputs.cache
+C:\Users\alexsander.rodrigues\core_api\heroes_api\obj\Debug\netcoreapp2.1\heroes_api.AssemblyInfo.cs
+C:\Users\alexsander.rodrigues\core_api\heroes_api\obj\Debug\netcoreapp2.1\heroes_api.RazorTargetAssemblyInfo.cache
+C:\Users\alexsander.rodrigues\core_api\heroes_api\obj\Debug\netcoreapp2.1\heroes_api.dll
+C:\Users\alexsander.rodrigues\core_api\heroes_api\obj\Debug\netcoreapp2.1\heroes_api.pdb

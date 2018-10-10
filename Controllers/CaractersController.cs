@@ -27,7 +27,27 @@ namespace heroes_api.Controllers
             response.EnsureSuccessStatusCode();
             string conteudo =
                 response.Content.ReadAsStringAsync().Result;
-            var caracters = JsonConvert.DeserializeObject<List<Caracter>>(conteudo);
+            //var caracters = JsonConvert.DeserializeObject<List<Caracter>>(conteudo);
+
+            dynamic resultado = JsonConvert.DeserializeObject(conteudo);
+            List<Caracter> caracters = new List<Caracter>();
+
+            if (resultado.data.results.Count > 0)
+            {
+                foreach (var data in resultado.data.results)
+                {
+                    var caracter = new Caracter()
+                    {
+                        Id = data.id,
+                        Name = data.name,
+                        Description = data.description,
+                        UrlImage = data.thumbnail.path + "." + data.thumbnail.extension
+                    };
+
+                    caracters.Add(caracter);
+                }
+            }
+
             return caracters;
         }
 
@@ -41,7 +61,13 @@ namespace heroes_api.Controllers
             response.EnsureSuccessStatusCode();
             string conteudo =
                 response.Content.ReadAsStringAsync().Result;
-            var caracter = JsonConvert.DeserializeObject<Caracter>(conteudo);
+
+            dynamic resultado = JsonConvert.DeserializeObject(conteudo);
+
+            var caracter = new Caracter()
+            {
+
+            };
             return caracter;
         }
     }

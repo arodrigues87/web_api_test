@@ -30,7 +30,7 @@ public class BaseController : ControllerBase
 
         client.BaseAddress = new Uri(
             baseURL + route +
-            $"?apikey={key}&hash={hash}");
+            $"?ts={ts}&apikey={key}&hash={hash}");
 
         return client;
     }
